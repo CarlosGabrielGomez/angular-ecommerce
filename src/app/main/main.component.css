@@ -1,0 +1,9 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 columnas con igual ancho */
+    gap: 10px; /* Espacio entre los productos */
+  }
+  
+  app-detail-product {
+    width: 100%; /* Asegura que cada producto ocupe todo el espacio de la celda */
+  }

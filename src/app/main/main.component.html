@@ -1,19 +1,10 @@
 <main>
-    <section>
-        <p>aca va el lisatdo de productos!!!</p>
+    <div class="container">
 
         @for (product of products; track product.id) {
-            <p>{{product.id}}</p>
-            <p>{{product.title}}</p>
-            <p>{{product.description}}</p>
+        <app-detail-product [product]="product"></app-detail-product>}
 
 
 
-
-        }
-
-
-
-
-    </section>
+    </div>
 </main>
